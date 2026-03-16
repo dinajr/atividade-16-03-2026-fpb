@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TecBlog - Login</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+	<nav id="area-cabecalho" class="navbar navbar-expand-lg bg-warning.bg-gradient">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      		<span class="navbar-toggler-icon"></span>
+    	</button>
+		<div id="area-logo navbar-brand">
+				<h1>Tec<span class="branco">Blog</span></h1>
+		</div>
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mt-3 mb-lg-0">
+					<li class="nav-item">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="jogos.html">Jogos</a>
+					</li>
+					<li class="nav-item">
+						<a href="celulares.html">Celulares</a>
+					</li>
+					<li class="nav-item">
+						<a href="informatica.html">Informática</a>
+					</li>
+					<li class="nav-item">
+						<a href="eletronicos.html">Eletrônicos</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conta</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" style="color: black;" href="login.html">Login</a></li>
+							<li><a class="dropdown-item"  style="color: black;" href="login.html">Cadastro</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="area-principal">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <form>
+                        <div>
+                            <label for="email"  class="form-label">Email:</label>
+                            <input type="text" class="form-control" id="email" name="emailUsuario" placeholder="Digite seu email">
+                        </div>
+                        <div>
+                            <label for="senha"  class="form-label">Senha:</label>
+                            <input type="password" class="form-control" id="senha" name="senhaUsuario" placeholder="Digite sua senha">
+                        </div>
+                        <br>
+                        <div>
+                            <button type="submit"  class="btn btn-primary mx-auto justify-content-center align-items-center">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <form>
+                                <div>
+                                    <label for="nome"  class="form-label">Nome Completo:</label>
+                                    <input type="text" class="form-control" id="nome" name="nomeUsuario" placeholder="Digite seu nome">
+                                </div>
+                                <div>
+                                    <label for="email"  class="form-label">Email:</label>
+                                    <input type="text" class="form-control" id="email" name="emailUsuario" placeholder="Digite seu email">
+                                </div>
+                                <div>
+                                    <label for="senha"  class="form-label">Senha:</label>
+                                    <input type="password" class="form-control" id="senha" name="senhaUsuario" placeholder="Digite sua senha">
+                                </div>
+                                <br>
+                                <div>
+                                    <button type="submit" class="btn mx-auto btn-primary justify-content-center align-items-center">Cadastrar</button>
+                                </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+		<div id="rodape">
+			Todos os direitos reservados
+		</div>
+
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

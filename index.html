@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TecBlog - O seu Blog de tecnologia</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+	<nav id="area-cabecalho" class="navbar navbar-expand-lg bg-warning.bg-gradient">
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      		<span class="navbar-toggler-icon"></span>
+    	</button>
+		<div id="area-logo navbar-brand">
+				<h1>Tec<span class="branco">Blog</span></h1>
+		</div>
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mt-3 mb-lg-0">
+					<li class="nav-item">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="jogos.html">Jogos</a>
+					</li>
+					<li class="nav-item">
+						<a href="celulares.html">Celulares</a>
+					</li>
+					<li class="nav-item">
+						<a href="informatica.html">Informática</a>
+					</li>
+					<li class="nav-item">
+						<a href="eletronicos.html">Eletrônicos</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Conta</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" style="color: black;" href="login.html">Login</a></li>
+							<li><a class="dropdown-item"  style="color: black;" href="login.html">Cadastro</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="area-principal">
+
+		<div id="carouselExample" class="carousel slide">
+  		<div class="carousel-inner">
+    		<div class="carousel-item active">
+    			<img src="imagens/imagem1.jpg" class="d-block w-100" >
+    		</div>
+    		<div class="carousel-item">
+      			<img src="imagens/imagem2.jpg" class="d-block w-100">
+    		</div>
+    		<div class="carousel-item">
+      			<img src="imagens/imagem3.jpg" class="d-block w-100">
+    		</div>
+  		</div>
+  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">←</span>
+  		</button>
+  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">→</span>
+  		</button>
+	</div>
+
+		<div id="area-postagens">
+			
+			<!-- abertura postagem -->
+			<div class="postagem">
+				<h2>Titulo da postagem 1</h2>
+				<span class="data-postagem">postado 20 março 2022</span>
+				<img width="620px" src="imagens/imagem1.jpg">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula
+				</p>
+				<a href="">Leia mais</a>
+			</div><!--// fechamento postagem -->
+
+			<!-- abertura postagem -->
+			<div class="postagem">
+				<h2>Titulo da postagem 2</h2>
+				<span class="data-postagem">postado 10 março 2022</span>
+				<img width="620px" src="imagens/imagem2.jpg">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula
+				</p>
+				<a href="">Leia mais</a>
+			</div><!--// fechamento postagem -->
+
+		</div>
+		<div id="area-lateral">
+			
+
+			<div class="conteudo-lateral">
+				<h3>Postagens recentes</h3>
+				
+				<div class="postagem-lateral">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="">Leia mais</a>
+				</div>
+
+				<div class="postagem-lateral" style="border-bottom: none;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="">Leia mais</a>
+				</div>
+
+			</div>
+
+			<div class="conteudo-lateral">
+				<h3>Categorias</h3>
+				
+				<a href="">Jogos</a><br>
+				<a href="">Celulares</a><br>
+				<a href="">Informática</a><br>
+				<a href="">Eletrônicos</a><br>
+				<a href="">Jogos</a><br>
+
+			</div>
+
+
+		</div>
+
+		<div id="rodape">
+			Todos os direitos reservados
+		</div>
+
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
