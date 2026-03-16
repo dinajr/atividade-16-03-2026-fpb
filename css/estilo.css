@@ -22,7 +22,7 @@ body {
 #area-logo, #area-menu {
 	padding: 10px;
 }
-
+/*
 #area-principal {
 	width: 920px;
 	margin: 0 auto;
@@ -38,6 +38,7 @@ body {
 	width: 240px;
 	float: right;
 }
+*/
 
 .postagem{
 	padding: 20px;
